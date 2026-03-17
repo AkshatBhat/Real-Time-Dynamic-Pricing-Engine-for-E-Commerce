@@ -1,0 +1,37 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+frontend/.env.local
+frontend/.env.*
+!frontend/.env.example
+
+# Private local progress notes
+current-implementation-status.md
+
+# Go build and test artifacts
+bin/
+dist/
+*.test
+coverage.out
+*.coverprofile
+
+# Node/Next build artifacts
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Logs and temporary files
+*.log
+tmp/
+tmp-*/
+
+# IDE and OS files
+.DS_Store
+**/.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
