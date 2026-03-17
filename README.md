@@ -3,6 +3,20 @@
 Event-driven dynamic pricing platform with Go, Kafka, Redis, Oracle, and a Next.js dashboard.  
 The system consumes product interaction events, computes demand-weighted prices in near real time, stores live state in Redis, persists history in Oracle, and streams updates to the UI over WebSockets.
 
+## Demo
+
+### 1. Dashboard Overview (Live Prices)
+![Dashboard overview](demo-images/01-dashboard-basic.png)
+
+### 2. Operator Key + Price History
+![Dashboard with admin key and history](demo-images/02-dashboard-with-admin-history.png)
+
+### 3. Override Applied
+![Dashboard with override applied](demo-images/03-dashboard-override-applied.png)
+
+### 4. Override Removed
+![Dashboard with override removed](demo-images/04-dashboard-override-removed.png)
+
 ## Core Documents
 
 - [SETUP.md](SETUP.md): detailed setup, run order, and troubleshooting guide for local development.
